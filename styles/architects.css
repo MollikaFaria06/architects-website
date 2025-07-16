@@ -231,7 +231,7 @@ main > section{
     }
     .team-img-container, 
     .facts-container
-    .sponsor-companies{
+    {
         grid-template-columns: repeat(1,1fr);
 
     }
@@ -243,6 +243,7 @@ main > section{
         gap: 24px;
     }
     .sponsor-companies{
+        grid-template-columns: repeat(1,1fr);
         justify-items: center;
         gap: 50px;
     }
@@ -250,6 +251,9 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer{
+        width: 100%;
     }
     
   }
@@ -271,6 +275,9 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer{
+        width: 100%;
     }
 
     
